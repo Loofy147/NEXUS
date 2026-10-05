@@ -1,1 +1,110 @@
-[{"name":"Public site routes","sanity":true,"viewport":"desktop","covers":["home navigation","independent page routes","route recovery"],"description":"Verifies the published site has independent navigable page surfaces rather than only section anchors.","steps":["Open home","Open Method","Open Systems","Open Work","Open Proof"],"expected":"Each destination loads its own page surface and changes the URL to the selected route."},{"name":"Mobile navigation","viewport":"mobile","covers":["mobile menu","route navigation","keyboard focus"],"description":"Verifies the site structure remains usable on small screens.","steps":["Open the site on mobile","Open the menu","Select Work","Move focus to the next control"],"expected":"The menu opens, Work loads, and focus remains visibly indicated."},{"name":"Inquiry brief","viewport":"desktop","covers":["contact validation","local output","honest backend boundary"],"description":"Verifies the contact surface creates a structured inquiry brief without claiming server submission.","steps":["Open Contact","Enter a problem and desired outcome","Generate the brief"],"expected":"A readable brief appears and no server submission is claimed."},{"name":"404 recovery","viewport":"mobile","covers":["404 state","recovery link"],"description":"Verifies an unknown path resolves to an intentional recoverable no-signal state.","steps":["Open an unknown route"],"expected":"The NEXUS 404 state appears with a path back to home."},{"name":"Reduced motion","viewport":"desktop","covers":["reduced motion","internal page accessibility"],"description":"Verifies internal pages do not depend on animation for comprehension.","steps":["Open Method with reduced motion enabled","Inspect the content and controls"],"expected":"Content remains available and usable without required animation."}]
+[
+  {
+    "name": "Public site routes",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "home navigation",
+      "independent page routes",
+      "route recovery"
+    ],
+    "description": "Verifies the published site has independent navigable page surfaces rather than only section anchors.",
+    "steps": [
+      "Open home",
+      "Open Method",
+      "Open Systems",
+      "Open Work",
+      "Open Proof"
+    ],
+    "expected": "Each destination loads its own page surface and changes the URL to the selected route."
+  },
+  {
+    "name": "Mobile navigation",
+    "viewport": "mobile",
+    "covers": [
+      "mobile menu",
+      "route navigation",
+      "keyboard focus"
+    ],
+    "description": "Verifies the site structure remains usable on small screens.",
+    "steps": [
+      "Open the site on mobile",
+      "Open the menu",
+      "Select Work",
+      "Move focus to the next control"
+    ],
+    "expected": "The menu opens, Work loads, and focus remains visibly indicated."
+  },
+  {
+    "name": "Inquiry brief",
+    "viewport": "desktop",
+    "covers": [
+      "contact validation",
+      "local output",
+      "honest backend boundary"
+    ],
+    "description": "Verifies the contact surface creates a structured inquiry brief without claiming server submission.",
+    "steps": [
+      "Open Contact",
+      "Enter a problem and desired outcome",
+      "Generate the brief"
+    ],
+    "expected": "A readable brief appears and no server submission is claimed."
+  },
+  {
+    "name": "404 recovery",
+    "viewport": "mobile",
+    "covers": [
+      "404 state",
+      "recovery link"
+    ],
+    "description": "Verifies an unknown path resolves to an intentional recoverable no-signal state.",
+    "steps": [
+      "Open an unknown route"
+    ],
+    "expected": "The NEXUS 404 state appears with a path back to home."
+  },
+  {
+    "name": "Reduced motion",
+    "viewport": "desktop",
+    "covers": [
+      "reduced motion",
+      "internal page accessibility"
+    ],
+    "description": "Verifies internal pages do not depend on animation for comprehension.",
+    "steps": [
+      "Open Method with reduced motion enabled",
+      "Inspect the content and controls"
+    ],
+    "expected": "Content remains available and usable without required animation."
+  },
+  {
+    "name": "Forced-colors focus",
+    "viewport": "desktop",
+    "covers": [
+      "focus visibility",
+      "high contrast"
+    ],
+    "description": "Verifies keyboard focus remains visually distinct when forced colors are active.",
+    "steps": [
+      "Enable forced colors",
+      "Tab through navigation and controls"
+    ],
+    "expected": "Focused controls retain a visible high-contrast outline."
+  },
+  {
+    "name": "Very narrow mobile",
+    "viewport": "mobile",
+    "covers": [
+      "320px breakpoint",
+      "hero typography",
+      "overflow"
+    ],
+    "description": "Verifies the hero remains within the viewport at widths at or below 320px.",
+    "steps": [
+      "Open home at 320px width",
+      "Inspect the hero heading and primary actions"
+    ],
+    "expected": "No horizontal overflow is introduced by hero typography or actions."
+  }
+]
