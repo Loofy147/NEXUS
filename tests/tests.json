@@ -121,6 +121,6 @@
       "Open the menu",
       "Inspect navigation links and menu button bounds"
     ],
-    "expected": "Navigation links and the menu button are at least 48px high and the menu button is at least 48px wide."
+    "expected": "Navigation links and the menu button are at least 48px high; navigation links and the menu button are at least 48px wide."
   }
 ]
