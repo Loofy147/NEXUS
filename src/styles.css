@@ -1284,6 +1284,10 @@ body {
   }
   .menu-toggle {
     display: inline-flex !important;
+    width: 48px !important;
+    min-width: 48px;
+    height: 48px !important;
+    min-height: 48px;
   }
   .menu-toggle svg {
     width: 22px !important;
@@ -1308,7 +1312,8 @@ body {
     display: flex;
   }
   .site-nav a {
-    height: 47px;
+    height: 48px;
+    min-height: 48px;
     border-bottom: 1px solid var(--subtle-line);
     font-size: 14px;
     justify-content: space-between;
