@@ -31,3 +31,5 @@ A successful AppDeploy deployment is not treated as proof of full production com
 - `Loofy147/Portfolio-Repository-Inventory#13`
 
 Next verification layers: repository/commit-to-deployment traceability, external CI regression, independent accessibility audit, repeatable performance measurement, privacy-bounded observability, and release/rollback records.
+
+CI verification pass: the build workflow is intentionally using `npm install` until a generated lockfile is established.
