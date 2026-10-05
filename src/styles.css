@@ -158,9 +158,12 @@ body {
 }
 .site-nav a {
   height: 100%;
+  min-width: 48px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 5px;
+  padding-inline: 4px;
   position: relative;
   text-decoration: none;
   color: var(--muted-foreground);
