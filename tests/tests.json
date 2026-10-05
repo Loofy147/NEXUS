@@ -106,5 +106,21 @@
       "Inspect the hero heading and primary actions"
     ],
     "expected": "No horizontal overflow is introduced by hero typography or actions."
+  },
+  {
+    "name": "Mobile touch targets",
+    "viewport": "mobile",
+    "covers": [
+      "48px navigation targets",
+      "menu button size",
+      "touch accessibility"
+    ],
+    "description": "Verifies mobile navigation controls meet a 48px touch-target minimum.",
+    "steps": [
+      "Open the site on mobile",
+      "Open the menu",
+      "Inspect navigation links and menu button bounds"
+    ],
+    "expected": "Navigation links and the menu button are at least 48px high and the menu button is at least 48px wide."
   }
 ]
